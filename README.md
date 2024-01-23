@@ -4,5 +4,5 @@
 # Description: Project 2b
 print("Please enter a Celsius temperature.")
 celsius = float(input())
-fahrenheit = input((9/5) * celsius + 32)
+fahrenheit = float(input((9/5) * celsius + 32))
 print("The equivalent fahrenheit temperature is: ")
